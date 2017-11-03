@@ -1,0 +1,297 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1800px) {
+	.slider_container .prev_button {
+		right: 16px;
+	}
+	.slider_container .next_button {
+		left: 16px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.slider_container .carousel h1{
+		font-size: 24px;
+	}
+	.slider_container .carousel p{
+		font-size: 16px;
+	}
+	.slider_container .carousel ul {
+		width: 53%;
+		margin-top: 32px;
+		margin: 0px 0 30px;
+	}
+	.slider_container .carousel h3, p{
+		font-size: 13px;
+	}
+	.slider_container .carousel img {
+		width: 34%;
+		margin: 26px 0px 0px 55px;
+	}
+	.owl-carousel {
+		display: none;
+		position: relative;
+		width: 100%;
+		-ms-touch-action: pan-y;
+		padding-top: 13px;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.tru {
+		display: none;
+	}
+	.slider_container .prev_button, .next_button  {
+		display: none;
+	}
+	header .top_logo {
+		float: left;
+		margin-left: 10px;
+	}
+	.nav_1 ul {
+		position: absolute;
+		z-index: 1;
+		background-color: #fff;
+		display: none;
+	}
+	.nav_1 ul {
+		list-style-type: none;
+		margin: 0;
+		padding-left: 0;
+		right: 12px;
+		width: 49%;
+	}
+
+	.nav_1 ul li{
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+		background-color: #EBECEB;
+		border-bottom: 3px solid #2F323B;
+		transition: all .5s;
+	}
+	.nav_1 ul li a{
+		color: #000;
+		outline: none;
+	}
+	.nav_1 ul li:hover{
+		background-color: #E41627;
+	}
+	.nav_left {
+		display: none;
+	}
+	.nav_1 {
+		position: relative;
+		margin-bottom: 15px;
+		border-bottom: 2px solid;
+		background-color: #2F323B;
+	}
+	.section_nav .box_right .butt_1,
+	.section_nav .box_right .butt_2{
+		width: 49%;
+		background-color: #2F323B;
+		color: #fff;
+	}
+	.admin_nav ul {
+		right: 0;
+		width: 49%;
+	}
+	.nav_1 ul li {
+		width: 100%;
+	}
+	.nav_1 .nov {
+		width: 82%;
+		margin-left: 86px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 780px) {
+	header .top_logo h1 {
+		font-size: 32px;
+	}
+	header .top_logo p {
+		font-size: 14px;
+	}
+	header .nav_top ul {
+		margin-top: 30px;
+	}
+	.nav_1 ul{
+		right: 5px;
+	}
+	.box_right ul {
+		margin: 0;
+		padding: 0;
+	}
+	footer .butt_logo h1 {
+		font-size: 32px;
+	}
+	footer .butt_logo {
+		font-size: 14px;
+		text-align: center;
+		float: none;
+	}
+	footer .butt_logo img {
+		width: 3%;
+		margin-right: 0px;
+	}
+	footer .butt_p {
+		text-align: center;
+	}
+    footer .butt_p p {
+    	float: none;
+    	text-align: center;
+    }
+    .nav_1 .nov {
+		margin-left: 67px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 700px) {
+	footer .butt_logo img {
+		width: 4%;
+	}
+	.nav_1 .nov {
+		margin-left: 67px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 510px) {
+	.section_nav .box_right ul li .con_cont {
+		margin-left: 135px;
+	}
+	.section_nav .box_right ul li .con_cont h2 {
+		margin: 0;
+	}
+	footer .butt_logo img {
+		width: 6%;
+	}
+	header .nav_top {
+		float: none;
+		display: inline-block;
+		margin-right: 10px;
+	}
+	header {
+		text-align: center;
+		height: 192px;
+	}
+	header h1 {
+		margin-bottom: 0px;
+		margin-top: 15px;
+	}
+	header .nav_top ul {
+		margin-top: 2px;
+	}
+	.slider_container .carousel img {
+		width: 40%;
+		margin: 17px 10px 10px;
+	}
+	.slider_container .carousel ul .ili{
+		display: none;
+	}
+	header .top_logo {
+		float: none;
+		margin-left: 0px;
+	}
+	.slider_container .carousel ul {
+		margin: 16px 0 27px;
+	}
+	.slider_container .carousel h1 {
+		font-size: 20px;
+	}
+	.section_admin .profil h1 {
+		font-size: 16px;
+	}
+	.section_admin .buttons_n {
+		margin-left: 0px;
+		font-size: 13px;
+	}
+	.section_admin .admin_nav_butt ul button {
+		font-size: 15px;
+		padding-right: 10px;
+	}
+	.section_admin .admin_nav_butt ul {
+		margin-top: 9px;
+	}
+	.nav_1 .nov {
+    margin-left: 24px;
+    width: 90%;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 400px) {
+	.slider_container .carousel ul .il{
+		display: none;
+	}
+	.slider_container .carousel ul {
+		margin: 27px 0 27px;
+	}
+	.con_cont h2 {
+		font-family: 'Garamond', arial;
+		font-size: 17px;
+	}
+	.section_nav .box_right ul li .con_cont {
+		margin-left: 125px;
+	}
+	.section_nav .box_right ul li img {
+		width: 30%;
+
+	}
+	.section_nav .box_right ul li {
+		display: inline-block;
+		margin: 46px 0px 0;
+	}
+	.con_cont h4 {
+		margin: 0;
+		font-size: 15px;
+	}
+	.section_nav .box_right ul li .con_cont .buttons_1,
+	.section_nav .box_right ul li .con_cont .buttons_2 {
+		height: 25px;
+		font-size: 15px;
+	}
+	header .nav_top {
+		margin-right: -10px;
+	}
+	
+	.nav_1 .butt_1, .nav_1 .butt_2 {
+		font-size: 14px;
+	}
+	.nav_1 .nov {
+		width: 89%;
+		margin-left: 17px;
+	}
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
