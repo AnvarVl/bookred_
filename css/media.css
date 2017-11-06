@@ -57,22 +57,19 @@
 		z-index: 1;
 		background-color: #fff;
 		display: none;
-	}
-	.nav_1 ul {
 		list-style-type: none;
 		margin: 0;
 		padding-left: 0;
 		right: 12px;
 		width: 49%;
 	}
-
 	.nav_1 ul li{
-		padding-top: 20px;
+		padding-top: 14px;
 		padding-left: 20px;
-		padding-bottom: 20px;
-		background-color: #EBECEB;
-		border-bottom: 3px solid #2F323B;
+		padding-bottom: 15px;
+		border-bottom: 1px solid #2F3230;
 		transition: all .5s;
+		box-shadow: 0px 6px 11px 3px;
 	}
 	.nav_1 ul li a{
 		color: #000;
@@ -97,7 +94,7 @@
 		color: #fff;
 	}
 	.admin_nav ul {
-		right: 0;
+		left: 0;
 		width: 49%;
 	}
 	.nav_1 ul li {
@@ -107,7 +104,30 @@
 		width: 82%;
 		margin-left: 86px;
 	}
-
+	.admin_nav .displai_none {
+		margin-bottom: 40px;
+	}
+	.section_admin .buttons_n {
+		background-color: transparent;
+		border: navajowhite;
+		color: #fff;
+		margin-left: 0px;
+		font-size: 21px;
+		transition: all .5s;
+	}
+	.section_admin .admin_nav_butt ul {
+		float: none;
+	}
+	.section_admin .admin_nav_butt ul {
+		margin-top: 7px;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 980px){
+	header img {
+		width: 9%;
+		margin-right: 0px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -143,12 +163,15 @@
 	footer .butt_p {
 		text-align: center;
 	}
-    footer .butt_p p {
-    	float: none;
-    	text-align: center;
-    }
-    .nav_1 .nov {
+	footer .butt_p p {
+		float: none;
+		text-align: center;
+	}
+	.nav_1 .nov {
 		margin-left: 67px;
+	}
+	header .nav_top .wrap-search-form {
+		padding-left: 6px;
 	}
 }
 /* Extra Small Devices, Phones */
@@ -219,9 +242,21 @@
 		margin-top: 9px;
 	}
 	.nav_1 .nov {
-    margin-left: 24px;
-    width: 90%;
+		margin-left: 24px;
+		width: 90%;
+	}
+	header img {
+		width: 5%;
+		margin-right: 5px;
+	}
+	header .nav_top ul li {
+		display: inline-block;
+		padding-right: 6px;
+	}
+	header .nav_top .wrap-search-form {
+    padding-left: 0px;
 }
+
 }
 
 /* Custom, iPhone Retina */
@@ -241,7 +276,6 @@
 	}
 	.section_nav .box_right ul li img {
 		width: 30%;
-
 	}
 	.section_nav .box_right ul li {
 		display: inline-block;
@@ -266,6 +300,17 @@
 	.nav_1 .nov {
 		width: 89%;
 		margin-left: 17px;
+	}
+	header .nav_top .wrap-search-form {
+		padding-left: 0px;
+		margin-left: -9px;
+	}
+	header .nav_top .wrap-search-form .search {
+		width: 63%;
+	}
+	header img {
+		width: 7%;
+		margin-right: 5px;
 	}
 }
 

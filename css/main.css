@@ -37,6 +37,9 @@ body {
 	background-position: 50% 0;
 	position: relative;
 }
+button{
+	border-radius: 15px;
+}
 header{
 	background-color: #2F323B;
 	position: relative;
@@ -68,7 +71,7 @@ header .nav_top a{
 header .nav_top ul {
 	list-style-type: none;
 	padding-left: 0;
-	margin-top: 58px;
+	margin-top: 38px;
 	margin-bottom: 0;
 }
 header .nav_top ul li{
@@ -90,11 +93,12 @@ header .nav_top .wrap-search-form {
 	margin-top: 5px;
 }
 header .nav_top .wrap-search-form .search {
-	border: none;
-	border-radius: 2px 2px 2px 2px;
-	height: 30px;
-	padding-left: 5px;
-	margin-right: 10PX;
+    border: none;
+    border-radius: 2px 14px 2px 14px;
+    height: 31px;
+    padding-left: 5px;
+    margin-right: 5PX;
+    width: 71%;
 }
 header .nav_top .wrap-search-form .submit-btn{
 	background: transparent;
@@ -138,6 +142,7 @@ header .nav_top .wrap-search-form .fa {
 	width: 100px;
 	color: #fff;
 	transition: all .5s;
+	margin-top: 6px;
 }
 .slider_container .carousel ul .button_l {
 	background-color: #E41627;
@@ -153,21 +158,18 @@ header .nav_top .wrap-search-form .fa {
 .slider_container .carousel ul .button_r:hover{
 	background-color: #E41627;
 }
-.section_nav .nav_left{
-	border: 2px solid #000;
-}
 .section_nav .nav_left ul {
 	list-style-type: none;
 	margin: 0;
 	padding-left: 0;
 }
-.section_nav .nav_left ul li{
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-bottom: 20px;
-	background-color: #EBECEB;
-	border-bottom: 3px solid #2F323B;
-	transition: all .5s;
+.section_nav .nav_left ul li {
+    padding-top: 14px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #2F3230;
+    transition: all .5s;
+    box-shadow: 0px 6px 11px 3px;
 }
 .section_nav .nav_left ul li a{
 	color: #000;
@@ -226,6 +228,7 @@ header .nav_top .wrap-search-form .fa {
 	background-color: #2F323B;
 	border: none;
 	color: #fff;
+	border-radius: 0;
 } 
 .nav_1 .butt_1:active{
 	border-bottom: 3px solid #E41627;
@@ -259,7 +262,7 @@ header .nav_top .wrap-search-form .fa {
 	height: 30px;
 	width: 100px;
 	color: #fff;
-	transition: all .5s;
+	transition: all .5s;	
 }
 .section_nav .box_right ul li .con_cont .buttons_1 {
 	background-color: #E41627;
@@ -283,6 +286,7 @@ header .nav_top .wrap-search-form .fa {
 	background-color: #fff;
 	border: none;
 	color: #000;
+	border-radius: 0;
 }
 .section_nav .box_right .butt_1:active{
 	border-bottom: 3px solid #E41627;
@@ -368,6 +372,7 @@ footer .butt_p p {
     font-size: 20px;
     padding-right: 14px;
     transition: all .5s;
+    margin-right: 7px;
 }
 .section_admin .admin_nav_butt ul li button:hover{
 	color: #E4555A;
@@ -377,7 +382,6 @@ footer .butt_p p {
 	padding-right: 10px;
 }
 .admin_nav .nav_left {
-    border: 2px solid #000;
     width: 26%;
     float: left;
 }
@@ -389,6 +393,8 @@ footer .butt_p p {
     padding: 10px;
     float: left;
     transition: all .5s;
+    box-shadow: 0px 6px 11px 3px;
+    border-radius: 0;
 }
 .admin_nav .displai_none:hover{
 	background-color: #000;
